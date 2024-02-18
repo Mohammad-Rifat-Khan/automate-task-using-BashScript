@@ -1,4 +1,9 @@
 #This script is writen to auto delete all cache memeory of my linux system. To run it write: locaton/cleaner.sh
+#This script does the following:
+#Cleans the APT package cache to free up space used by downloaded package files.
+#Removes old log files in the /var/log directory.
+#Cleans up temporary files (files ending with *~) in user directories.
+#Empties the trash folder (if your desktop environment uses one).
 
 #!/bin/bash
 
